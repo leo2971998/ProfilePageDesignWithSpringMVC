@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+a{
+	text-decoration: none;
+	text-transform: none;
+	color: #4A90E2;
+}
+body {
+	line-height: 1;
+	text-rendering : optimizeLegibility;
+	font-size: 19px;
+	background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,255,255, .25) 50px,rgba(0,255,255, .25) 100px), repeating-linear-gradient(90deg, rgba(0,255,255, .25), rgba(0,255,255, .25) 50px, transparent 50px, transparent 100px), repeating-linear-gradient(135deg, transparent, transparent 4px, rgba(255,255,255,.1) 4px, rgba(255,255,255,.1) 8px), repeating-linear-gradient(45deg, transparent, transparent 4px, rgba(255,255,255,.1) 4px, rgba(255,255,255,.1) 8px), repeating-linear-gradient(transparent, transparent 20px, rgba(100,250,250, .2) 20px, rgba(100,250,250, .2) 21px, transparent 21px,transparent 29px, rgba(100,250,250, .2) 29px, rgba(100,250,250, .2) 30px, transparent 30px, transparent 50px), repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(100,250,250, .2) 20px, rgba(100,250,250, .2) 21px, transparent 21px,transparent 29px, rgba(100,250,250, .2) 29px, rgba(100,250,250, .2) 30px, transparent 30px, transparent 50px);
+    }
+    background-blend-mode: lighten;
+	color: #04143A;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+strong {
+	font-weight: 1000;
+}
+div {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1100px;
+	height: auto;
+	margin: 60px auto;
+}
+.profile {
+	margin: 50px auto;
+	position: relative;
+}
+
+h1.name {
+	font-size: 50px;
+	display: block;
+}
+.job-title {
+	background-color: #D9E7F8;
+	color: #4A90E2;
+	font-weight: 600;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 15px 25px;
+	margin-bottom: 30px;
+}
+
+a.email {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.lead {
+	font-size: 44px;
+	font-weight: 300;
+	margin-top: 60px;
+	line-height: 55px;
+}
+
+.sections {
+	vertical-align: top;
+	display: inline-block;
+	width: 49.7%;
+	height: 50px;
+}
+
+.section-title {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 15px;
+	text-align:center;
+}
+.list-card .exp , .list-card div{
+	vertical-align: top;
+}
+
+.list-card .exp {
+	margin-right: 15px;
+	color: #4A90E2;
+	font-weight: 600;
+	width: 100px;
+}
+
+.list-card div {
+	width: 70%;
+}
+
+.list-card h3 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #5B6A9A;
+	line-height: 26px;
+}
+
+.list-card div span {
+	font-size: 16px;
+	color: #81899C;
+	line-height: 22px;
+}
+li {
+   font-weight:bold;
+}

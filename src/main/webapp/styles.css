@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body {
+   background-image: url("snow.gif");
+   background-size: cover;
+}
+a:link {
+  color: black;
+  background-image: linear-gradient(red 30%, yellow 70%);
+}
+
+a:visited {
+  color: black;
+  background-image: linear-gradient(red, yellow);
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: hot pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+table {
+   width: 50%;
+   margin-left:auto;
+   margin-right:auto;
+}
+th, td {
+  background-image: url("snowpattern.jpg");
+  text-align: center;
+  padding: 8px;
+  border: 1px solid black;
+}
